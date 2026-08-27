@@ -127,9 +127,7 @@ Risk Level
 Likely to Churn / Likely to Stay prediction
 Model Performance
 Business Insights
-🚀 Live Application
-
-Open the Live Customer Churn Prediction App
+🚀 Live Application: https://telco-customer-churn-prediction-jpxvnuvjlrpeitg7qmcegi.streamlit.app/
 
 💡 Business Insights
 
