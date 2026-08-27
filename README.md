@@ -79,4 +79,83 @@ Final Logistic Regression Model
       ↓
 Model Serialization
       ↓
-Streamlit Deployment
+---
+
+## 🔮 Streamlit Prediction Application
+
+An interactive Streamlit application was developed to allow users to enter customer information and receive a churn prediction.
+
+The application provides:
+
+- Churn Probability
+- Risk Level
+- Likely to Churn / Likely to Stay prediction
+- Model Performance
+- Business Insights
+
+### 🚀 Live Application
+
+[Open the Live Customer Churn Prediction App](https://telco-customer-churn-prediction-jpxvnuvjlrpeitg7qmcegi.streamlit.app/)
+
+---
+
+## 💡 Business Insights
+
+The analysis highlighted several important churn patterns.
+
+### Contract Type
+
+Month-to-month customers generally show higher churn risk compared with customers on longer-term contracts.
+
+### Customer Tenure
+
+Customers with shorter tenure tend to have a higher likelihood of churn.
+
+### Monthly Charges
+
+Higher monthly charges can be associated with increased churn risk, particularly when combined with short tenure or month-to-month contracts.
+
+### Payment Method
+
+Different payment methods can be associated with different churn patterns.
+
+---
+
+## 🎯 Recommended Business Actions
+
+1. Target customers with high predicted churn risk.
+2. Focus on retention during the early customer lifecycle.
+3. Encourage customers to move to longer-term contracts.
+4. Monitor high-value customers with higher monthly charges.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Plotly
+- Streamlit
+- Jupyter Notebook
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+telco-customer-churn-prediction/
+│
+├── app.py
+├── churn_model_v2.pkl
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── Telco-Customer-Churn.csv
+│
+└── notebooks/
+    └── Telecom-Churn.ipynb
